@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container {
+  min-height: 100vh;
+  /* background-color: darkgrey; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #292929;
+  display: flex;
+  padding: 10px 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoobc {
+  width: 230px;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonsHeader {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.buttonsHeader:hover {
+  border-bottom: 1px solid white;
+  /* padding-bottom: 5px; */
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #363636;
+}
+
+.imgssport {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  /* background-color: aquamarine; */
+}
+
+.card {
+  width: 304px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+  /* background-color: cornflowerblue; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+  border-color: black;
+}
+
+.titlecard {
+  font-size: 22px;
+  padding: 6px;
+}
+
+.descriptioncard {
+  font-size: 20px;
+  padding: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cardlateral {
+  font-size: 20px;
+  background-color: #383838;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.cardsidebar {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.imgslado {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.titlesidebar {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.descriptioncardsidebar {
+  padding: 6px;
+}
+
+.cardsidebar:hover {
+  border-color: gainsboro;
+}
+
+.footer {
+  display: flex;
+  background-color: #292929;
+  padding: 10px 25px;
+  justify-content: space-between;
+  align-items: center;
+  color: gainsboro;
+}
+
+.footerAnchor {
+  /* font-size: 30px; */
+  color: white;
+  text-decoration: none;
+}
